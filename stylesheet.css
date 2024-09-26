@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #34247b;
+
+    color: white;
+}
+
+nav {
+    background-color: #0d116c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 80px;
+
+}
+
+.left {
+    font-size: 2rem;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    padding: 0;
+    font-size: 1.3rem;
+
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    size: 30%;
+    align-items: center;
+    margin: 2rem 0rem;
+}
+
+.leftsection {
+    width: 30%;
+}
+
+.rightsection {
+    width: 30%;
+    font-size: 1.5rem;
+}
+
+.leftsection img {
+    width: 20rem;
+
+}
+
+.textc1 {
+    color: aqua;
+    font-size: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue
+}
+
+nav ul li a:hover {
+    font-size: 1rem;
+    color: rgb(2, 7, 55);
+}
+
+#element {
+    color: rgb(20, 3, 97);
+}
+
+.hr1 hr {
+    margin: 2rem 3rem;
+    border: 2px, solid, rgb(8, 11, 67);
+
+}
+
+.secondsection .box {
+    display: flex;
+    margin: 0rem 2rem;
+
+}
+
+.secondsection .vertical {
+    height: 3rem;
+    width: 0.2rem;
+    background: #f6bf2a;
+    margin: 0rem 6rem;
+}
+
+.secondsection .grab {
+    color: rgb(199, 191, 191);
+    margin: 0rem 2rem;
+}
+
+.secondsection h1 {
+    color: rgb(239, 238, 239);
+    margin: 0rem 2rem;
+    font-size: 4rem;
+}
+
+.hr2 hr {
+    margin: 0rem 5rem;
+    border: 2px, solid, #f6bf2a;
+}
+
+.secondsection .skillbox {
+    margin: 2.5rem 0rem;
+}
+
+.logo {
+    position: relative;
+    width: 33px;
+    top: -30px;
+    left: -15px;
+}
+
+.verticaltittle {
+    position: relative;
+    top: 1rem;
+    right: 1.7rem;
+    font-size: 1.5rem;
+    width: 50px;
+}
+
+.verticalcontent {
+    position: relative;
+    top: 1.2rem;
+    font-size: 15px;
+    right: 2.4rem;
+    opacity: 0.6;
+    width: 170px;
+}
+.footer{
+    position: relative;
+    top: 11rem;
+
+}
+.footer h1 {
+    color: rgb(239, 238, 239);
+    margin: 0rem 2rem;
+    font-size: 4rem;
+}
+
+.hr3 hr{
+    margin: 2rem 3rem;
+    border: 2px, solid, rgb(8, 11, 67);
+
+}
+.socialaccount{
+    margin: 1rem 3rem;
+    display: flex;
+    width: 20%;
+ justify-content:space-between
+
+}
+.sociallogo{
+    width: 23px;
+}
+#instalogo{
+    size: 50px;
+}
